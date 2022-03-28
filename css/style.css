@@ -1,0 +1,339 @@
+*{
+    background-color: #941728;
+}
+
+.circuloBlanco{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circuloBlanco .circuloAzul{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    background-color:#0BCDFF;
+}
+
+.circulo1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 225px;
+    top: 50px;
+    border-radius: 50%;
+    background-color: #DFE812;
+}
+.circulo2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 280px;
+    top: 50px;
+    border-radius: 50%;
+    background-color: #DFE812;
+}
+
+.circulo3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 335px;
+    top: 50px;
+    border-radius: 50%;
+    background-color: #DFE812;
+}
+
+.contenedorImg{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    border-radius: 10px 10px 0px 10px;
+    background-color: #DEDEDE;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    background-color: #DEDEDE;
+    background-size: cover;
+}
+
+
+.buscar{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 450px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+.buscar button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+.input{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    background-color: #55AB62;
+}
+
+.input input{
+    width: 200px;
+    height: 50px;
+    text-align: justify;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+    background-color: #55AB62;
+}
+
+.cuadrado1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    background-color: black;
+}
+
+.cuadrado2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 510px;
+    left: 400px;
+    background-color: black;
+}
+
+.cuadrado3{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 590px;
+    left: 400px;
+    background-color: black;
+}
+
+.cuadrado4{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 550px;
+    left: 360px;
+    background-color: black;
+}
+
+.cuadrado5{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 550px;
+    left: 440px;
+    background-color:black;
+}
+
+.informacion{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:#DFE812;
+    border-radius: 10px;
+}
+
+.informacion h3{
+    width: 300px;
+    margin-left: 20px;
+    display: flex;
+    background-color: black;
+}
+
+.informacion .tipoPoke1{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    display:block;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.informacion .tipoPoke2{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    display:block;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.status{
+    width: 100%;
+    top: 115px;
+    position: absolute;
+    display: flex;
+    /* justify-items: flex-start; */
+    background-color: black;
+}
+
+.status h5{
+    margin:15px;
+    background-color: black;
+}
+
+.status .statusRecibidoPS{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin-top: -30px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.3em;
+}
+.status .statusRecibidoAtk{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 50px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.status .statusRecibidoDf{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 110px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.status .statusRecibidoSatk{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 170px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.3em;
+}
+.status .statusRecibidoSdf{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 240px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.status .statusRecibidoSp{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 310px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.informacion2{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    color: #DFE812;
+    
+}
+
+.informacion2 div{
+    width: 150px;
+    height: 50%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.informacion2 h5{
+    width: 100px;
+    height: 40px;
+    margin: -20px;
+    margin-top: 3px;
+    margin-left: 2px;
+    position: absolute;
+    background-color: black;
+}
+
+/* .informacion .debilidad1Poke {
+    width: 100px;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    background-color: black;
+    color: white;
+} */
+/* .informacion .debilidad2Poke {
+    width: 50px;
+    position: absolute;
+    top: 60px;
+    left: 170px;
+    background-color: black;
+    color: white;
+} */
+
+/* .movimientos{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    /* display: flex;
+    top: 450px;
+    left: 600px;
+    background-color: #31A7F1;
+} */
+
+/* .movimientos .movimiento{
+    width: auto;
+    height: 50%;
+    display: flex;
+    border-color: #2165EC;
+
+} */

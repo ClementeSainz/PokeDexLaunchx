@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="circuloBlanco">
+        <div class="circuloAzul"></div>
+    </div>
+    <div class="circulo1"></div>
+    <div class="circulo2"></div>
+    <div class="circulo3"></div>
+    <div class="contenedorImg">
+        <img src="img/481px-Pokebola-pokeball-png-0.png" alt="Pokemon" id="pokeImg">
+    </div>
+    <div class="buscar">
+        <button onclick="fetchPokemon()">Buscar</button>
+    </div>
+    <div class="input">
+        <input type="text" id="pokeName" name="pokeName" placeholder="Ingrese el nombre de su pokémon">
+    </div>
+    <div class="cuadrado1"></div>
+    <div class="cuadrado2"></div>
+    <div class="cuadrado3"></div>
+    <div class="cuadrado4"></div>
+    <div class="cuadrado5"></div>
+
+    <div class="informacion">
+        <h3>Tipo:</h3>
+        <label for="" class="tipoPoke1" id="tipoPoke1"></label>
+        <label for="" class="tipoPoke2" id="tipoPoke2"></label>
+        <!-- <h3>Debilidad:</h3>
+        <label for="" class="debilidadPoke1" id="debilidad1">Agua</label>
+        <label for="" class="debilidadPoke2" id="debilidad2">Fuego</label> -->
+
+        <div class="status">
+            <h5>PS</h5>
+            <label for="" class="statusRecibidoPS" id="ps"></label>
+            <h5>ATK</h5>
+            <label for="" class="statusRecibidoAtk" id="atk"></label>
+            <h5>DEF</h5>
+            <label for="" class="statusRecibidoDf" id="def"></label>
+            <h5>SP. ATK</h5>
+            <label for="" class="statusRecibidoSatk" id="spatk"></label>
+            <h5>SP. DEF</h5>
+            <label for="" class="statusRecibidoSdf" id="spdf"></label>
+            <h5>SPEED</h5>
+            <label for="" class="statusRecibidoSp" id="speed"></label>
+        </div>
+    </div>
+
+    <div class="informacion2">
+        <div>
+            <h5>Altura:</h5>
+            <label for="" id="altura"></label>
+        </div>
+        <div>
+            <h5>Peso:</h5>
+            <label for="" id="peso"></label>
+        </div>
+    </div>
+
+    <!-- <div class="movimientos">
+        <div class="movimiento"></div>
+        <div class="movimiento"></div>
+        <div class="movimiento"></div>
+        <div class="movimiento"></div>
+        <div class="movimiento"></div>
+        <div class="movimiento"></div>
+        <div class="movimiento"></div>
+        <div class="movimiento"></div>
+        <div class="movimiento"></div>
+        <div class="movimiento"></div>
+    </div> -->
+    <script src="./js/pokedex.js"></script>
+        
+</body>
+</html>
